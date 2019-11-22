@@ -8,7 +8,7 @@
 
 <cite:linkhere><epc:choose>
   <epc:when test="name"><epc:print expr="name"/></epc:when> 
-  <epc:otherwise>Untitled search #<epc:print expr="id"/></epc:otherwise>
+  <epc:otherwise><epc:phrase ref="citation:saved_search:unnamed_saved_search" /> #<epc:print expr="id"/></epc:otherwise>
 </epc:choose></cite:linkhere>
 
 </cite:citation>
