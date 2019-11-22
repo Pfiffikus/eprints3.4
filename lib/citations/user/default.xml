@@ -8,8 +8,8 @@
 
 <cite:linkhere><span class="ep_name_citation"><epc:choose>
   <epc:when test="name"><epc:print expr="name"/></epc:when>
-  <epc:when test="email">Unnamed user with email <epc:print expr="email"/></epc:when>
-  <epc:otherwise>Unnamed user with username <epc:print expr="username"/></epc:otherwise>
+  <epc:when test="email"><epc:phrase ref="citation:user:unnamed_user_with_email" /> <epc:print expr="email"/></epc:when>
+  <epc:otherwise><epc:phrase ref="citation:user:unnamed_user" /> <epc:print expr="username"/></epc:otherwise>
 </epc:choose></span></cite:linkhere>
 
 </cite:citation>
