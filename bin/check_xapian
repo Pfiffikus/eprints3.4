@@ -45,7 +45,7 @@ Check all eprint items rather than those last modified in the last 2 days.
 
 =item B<--idlist=1,2,3> 
 
-Check all items list in the comma-separated list of IDs.
+Check all items listed in the comma-separated list of IDs.
 
 =item B<--facets> 
 
@@ -89,7 +89,7 @@ Used in conjunction with --random to specify the sample size of items to check. 
 
 =item B<--status=archive,deletion>
 
-Used to specify the status of eprint (inbox, buffer, archive, deletion) to be check.  If not specified eprints of all statuses will be checked. Specify multiple statuses through a comma-separated list. Ignored if used in conjunction with --idlist.
+Used to specify the status of eprints (inbox, buffer, archive, deletion) to be checked.  If not specified eprints of all statuses will be checked. Specify multiple statuses through a comma-separated list. Ignored if used in conjunction with --idlist.
 
 =item B<--user=admin>
 
